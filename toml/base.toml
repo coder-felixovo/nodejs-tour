@@ -1,0 +1,34 @@
+[string]
+str1 = "hello world"
+
+[integer]
+int1 = +1
+int2 = 2
+int3 = -3
+
+int4 = 0
+# +0 和 -0 都等同于 0
+int5 = +0
+int6 = -0
+
+# 对于较大的数，可以使用_增加可读性
+int7 = 10_485_760
+
+[float]
+# 小数
+flt1 = +1.0
+flt2 = 3.1415926
+flt3 = -0.01
+
+# 科学计数法
+flt4 = 2e+2
+flt5 = 2e02
+flt6 = -2e-2
+
+# 0
+flt8 = +0.0
+flt9 = -0.0
+
+[boolean]
+on = true
+off = false
